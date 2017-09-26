@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             actualizar();
     }
 
+    // actualizar la fecha y hora
     private void actualizar() {
         texto.setText(new Date().toString());
     }
